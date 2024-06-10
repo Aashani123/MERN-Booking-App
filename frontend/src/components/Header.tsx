@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Hero from "./Hero";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
           <Link to="/">MernHolidays.com</Link>
         </span>
         <span className="flex space-x-2">
-          <Link to="/sign-in" className="flex items-center text-white px-3 font-bold hover:bg-gray-100">
+          <Link to="/sign-in" className="flex items-center text-white px-3 font-bold hover:bg-gray-500">
             Sign in
           </Link>
         </span>
